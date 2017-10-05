@@ -61,6 +61,7 @@ GameObject:
   - component: {fileID: 54065650068330034}
   - component: {fileID: 95398704975029880}
   - component: {fileID: 114420652341634314}
+  - component: {fileID: 114504805939781102}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -239,7 +240,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 16
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!65 &65865602271279196
 BoxCollider:
@@ -281,7 +282,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3d622c4cf4c5fc4abf3cd6edeae7e28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+--- !u!114 &114504805939781102
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1504438139845602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 3
+  m_SendInterval: 0.1
+  m_SyncRotationAxis: 4
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 5
+  m_InterpolateRotation: 4
+  m_InterpolateMovement: 1
 --- !u!114 &114585133607893690
 MonoBehaviour:
   m_ObjectHideFlags: 1
